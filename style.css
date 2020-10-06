@@ -1,0 +1,297 @@
+article, footer, header, hgroup, nav, section {
+  display: block;
+}
+hgroup h1{
+  padding-bottom: 1px;
+  padding-left: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+#paper {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88)), url('JAH.jpg');
+  background-attachment: fixed;
+}
+/* mouse over link */
+a:hover {
+  color: rgb(131, 131, 131);
+  transition: all 0.3s ease;
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 72, 0);
+}
+/*drop down ends here*/
+#catalog {
+  position: relative;
+  float: center;
+  padding-bottom: 15px;
+  margin-left: 30%;
+}
+/*top nav bar starts here, these control how it looks and where it is.*/
+header {
+  padding: 10px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 2;
+  min-width: 99%;
+  margin-left: -5px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  height: 60px;
+  background-color: rgba(196, 196, 196, 0.623);
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  color: darkred;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  min-width: 99%
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+/*top bar ends here.*/ 
+nav {
+  float: right;
+  box-shadow: 1px;
+  background-color: #d3d1d175;
+  margin-top: 150px;
+  position: fixed;
+  left: 89%;
+  z-index: 2;
+  text-align: center;
+  width: 140px;
+  height: 70px;
+  padding: 5px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+.float {
+  clear: both;
+}
+#main_background_pic {
+  padding-top: 30px;
+  position: relative;
+  height: 480px;
+  width: 1080px;
+  min-width: 60%;
+  background-image: url('images/emporia_downtown.jpg');
+  background-attachment: none;
+  background-color: black;
+  background-repeat: none;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.info_on_emporia {
+  min-width: 30%;
+  width: 500px;
+  height: 550px;
+  background-color: #d3d1d175;
+  margin-right: -10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.info_on_emporia1 {
+  min-width: 45%;
+  width: 500px;
+  height: 2000px;
+  background-color: #d3d1d175;
+  margin-right: -10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.info_on_emporia1 ul{
+  list-style: none;
+}
+#second_background_pic {
+  height: 480px;
+  width: 1080px;
+  min-width: 60%;
+  background-image: url('images/emporia5.jpg');
+  background-attachment: none;
+  background-color: black;
+  background-repeat: none;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#third_background_pic {
+  height: 300px;
+  width: 1080px;
+  min-width: 60%;
+  background-image: url('images/emporia2.jpg');
+  background-attachment: fixed;
+  background-color: black;
+  background-repeat: none;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.text {
+  padding: 15px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(207, 207, 207);
+}
+.textOn {
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer {
+  background-color: #d3d1d175;
+  min-width: 99%;
+  height: 30px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(207, 207, 207);
+}
+#cap {
+  position: relative;
+  z-index: 1;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  height: 34px;
+}
+hr {
+  width: 140px;
+  margin-top: 5px;
+}
+#cap p {
+  text-align: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 34px;
+  padding-bottom: -100px;
+}
+.thingstodo {
+  padding: 15px;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 5%;
+  color: darkred;
+}
+
+.floatys1 {
+  float: left;
+  margin-right: 5px;
+  display: inline-grid;
+  vertical-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.floatys1 ul {
+  list-style: none;
+}
+.floatys1 img {
+  height: 100px;
+  width: 100px;
+}
+.floatys2 {
+  float: left;
+  margin-right: 5px;
+  display: inline-grid;
+  vertical-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.floatys2 ul {
+  list-style: circle;
+
+}
+.floatys3 {
+  float: left;
+  margin-right: 35px;
+  display: inline-grid;
+  vertical-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#labelForStuff {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.labels {
+  float: left;
+  padding-left: 15px;
+}
+form {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.l {
+  text-align: left;
+  float: left;
+  width: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#lis {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 15px;
+
+}
+#lis li {
+  width: 49%;
+  padding-bottom: 10px;
+}
+#lis li > * {
+  width: 100;
+}
+input {
+  width: 250px;
+  border-radius: 5px;
+}
+label {
+  padding-top: 10px;
+}
+#sub {
+  width: 75px;
+  height: 45px;
+  padding: 2px;
+  background-color: darkred;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  position: relative;
+}
+#sub:hover {
+  background-color: rgba(48, 3, 3, 0.801);
+  transition: all 0.3s ease;
+}
+#textars {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
