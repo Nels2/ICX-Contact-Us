@@ -25,7 +25,7 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-  color: rgb(131, 131, 131);
+  color: rgb(204, 201, 28);
   transition: all 0.3s ease;
 }
 
@@ -82,25 +82,6 @@ nav {
   padding-top: 10px;
   border-radius: 20px;
 }
-.float {
-  clear: both;
-}
-#main_background_pic {
-  padding-top: 30px;
-  position: relative;
-  height: 480px;
-  width: 1080px;
-  min-width: 60%;
-  background-image: url('images/emporia_downtown.jpg');
-  background-attachment: none;
-  background-color: black;
-  background-repeat: none;
-  background-position: center;
-  background-size: 100%;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
 .info_on_emporia {
   min-width: 30%;
   width: 500px;
@@ -110,46 +91,10 @@ nav {
   margin: 0 auto;
   border-radius: 10px;
 }
-.info_on_emporia1 {
-  min-width: 45%;
-  width: 500px;
-  height: 2000px;
-  background-color: #d3d1d175;
-  margin-right: -10px;
-  margin: 0 auto;
-  border-radius: 10px;
-}
 .info_on_emporia1 ul{
   list-style: none;
 }
-#second_background_pic {
-  height: 480px;
-  width: 1080px;
-  min-width: 60%;
-  background-image: url('images/emporia5.jpg');
-  background-attachment: none;
-  background-color: black;
-  background-repeat: none;
-  background-position: center;
-  background-size: 100%;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-#third_background_pic {
-  height: 300px;
-  width: 1080px;
-  min-width: 60%;
-  background-image: url('images/emporia2.jpg');
-  background-attachment: fixed;
-  background-color: black;
-  background-repeat: none;
-  background-position: center;
-  background-size: 100%;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
+
 .text {
   padding: 15px;
   font-size: 18px;
@@ -173,23 +118,9 @@ footer p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(207, 207, 207);
 }
-#cap {
-  position: relative;
-  z-index: 1;
-  padding-top: 300px;
-  padding-bottom: 100px;
-  height: 34px;
-}
 hr {
   width: 140px;
   margin-top: 5px;
-}
-#cap p {
-  text-align: center;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 34px;
-  padding-bottom: -100px;
 }
 .thingstodo {
   padding: 15px;
@@ -199,45 +130,6 @@ hr {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 5%;
   color: darkred;
-}
-
-.floatys1 {
-  float: left;
-  margin-right: 5px;
-  display: inline-grid;
-  vertical-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-.floatys1 ul {
-  list-style: none;
-}
-.floatys1 img {
-  height: 100px;
-  width: 100px;
-}
-.floatys2 {
-  float: left;
-  margin-right: 5px;
-  display: inline-grid;
-  vertical-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.floatys2 ul {
-  list-style: circle;
-
-}
-.floatys3 {
-  float: left;
-  margin-right: 35px;
-  display: inline-grid;
-  vertical-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#labelForStuff {
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
 }
 .labels {
   float: left;
