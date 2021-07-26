@@ -79,6 +79,8 @@ nav {
   padding-top: 10px;
   border-radius: 20px;
   position: fixed;
+  right: 0;
+  
 }
 .info_on_emporia {
   min-width: 460px;
