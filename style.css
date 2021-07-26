@@ -20,7 +20,7 @@ a:visited {
   color: rgb(255, 255, 255);
 }
 #paper {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgb(123 0 0 / 88%));
   background-attachment: fixed;
 }
 /* mouse over link */
@@ -48,7 +48,7 @@ header {
   min-width: 452px;
   margin: auto;
   height: 60px;
-  background-color: rgba(196, 196, 196, 0.623);
+  background-color: #d3d1d173;
   text-align: left;
   font-size: 14px;
   border-radius: 10px;
@@ -69,7 +69,7 @@ nav {
   margin-left: 72%;
   margin-right: 1%;
   box-shadow: 1px;
-  background-color: #d3d1d175;
+  background-color: #d3d1d173;
   margin-top: 120px;
   z-index: 3000;
   text-align: center;
@@ -82,13 +82,14 @@ nav {
   right: 0;
 }
 .info_on_emporia {
-  min-width: 460px;
-  width: 487px;
-  height: 550px;
+  min-width: 260px;
+  width: 200px;
+  height: 600px;
   background-color: #d3d1d175;
-  margin: 1% auto; 
+  margin: auto;
   border-radius: 10px;
   margin-bottom: 10%;
+  z-index: 1;
 }
 .info_on_emporia1 ul{
   list-style: none;
@@ -97,7 +98,8 @@ nav {
   padding: 15px;
   font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(207, 207, 207);
+  color: rgb(255 255 255);
+  text-align: center;
 }
 .textOn {
   padding-left: 15px;
@@ -105,10 +107,11 @@ nav {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 footer {
-  background-color: #d3d1d175;
+  background-color: #d3d1d173;
   min-width: 485px;
   height: 30px;
   text-align: center;
+  border-radius: 10px;
 }
 footer p {
   text-align: center;
@@ -136,8 +139,8 @@ hr {
 }
 form {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .l {
   text-align: left;
@@ -148,24 +151,25 @@ form {
 }
 #lis {
   list-style: none;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 20px;
   padding-left: 15px;
 
 }
 #lis li {
   width: 49%;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 #lis li > * {
   width: 100;
 }
 input {
-  width: 250px;
+  width: 200px;
   border-radius: 5px;
 }
 label {
   padding-top: 10px;
+  color: white;
 }
 #sub {
   width: 75px;
@@ -182,7 +186,7 @@ label {
   transition: all 0.3s ease;
 }
 #textars {
-  width: 250px;
+  width: 200px;
   height: 150px;
   border-radius: 10px;
 }
