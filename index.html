@@ -35,18 +35,18 @@
 	</header>
 	<div class="thingstodo"><a name="todo">Contact Us</a></div>
 	<section class="info_on_emporia">
-		<p class="text">To get in contact with us please fill out the form below. You will recieve a reply shortly after. * is required.</p>
+		<p class="text">To get in contact with us please fill out the form below. You will recieve a reply shortly after. <span style="color: orange">*</span> is required.</p>
     <article>
           <!--<form action="/otherPages/postContact.html" method="GET">-->
           <form action="https://formspree.io/xlenraza" method="POST">
               <div id="l">
                 <ul id="lis">
                   <li>
-                    <label id="name">Name*</label><br>
+                    <label id="name">Name<span style="color: orange">*</span></label><br>
                     <input type="text" id="name" name="name" placeholder="John Doe" autofocus required><br>
                   </li>
                   <li>
-                    <label id="Email">Email* <br>[@gmail]</label><br>
+                    <label id="Email">Email<span style="color: orange">*</span><br>[@gmail]</label>
                     <input type="email" id="email" name="email" placeholder="JohnSmith123@gmail.com" pattern=".+@gmail.com" autocomplete="off" required><br>
                   </li>
                   <li>
@@ -54,7 +54,7 @@
                     <input type="text" id="phone" name="phone" autocomplete="off"><br>
                   </li>
                   <li>
-                    <label id="textars">Message*</label><br>
+                    <label id="textars">Message<span style="color: orange">*</span></label><br>
                     <textarea id="textars" name="feedback" placeholder="Write your message here." required></textarea>
                   </li>
                 </ul>
@@ -67,7 +67,7 @@
         </article>
 	</section>
     <footer>
-      <p>&copy Nelson Orellana 2021 &amp ICX S&P LLC. | Emporia, KS</p>
+      <p style="color: rgb(255 255 255)">&copy Nelson Orellana 2021 &amp ICX S&P LLC. | Emporia, KS</p>
     </footer>
     <script src="/script.js"></script>
   </body>
